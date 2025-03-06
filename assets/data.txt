@@ -1,0 +1,4 @@
+colors:
+    #8B4513
+    #FFFDD0
+    #2E8B57
