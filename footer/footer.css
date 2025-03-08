@@ -1,0 +1,122 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    /* width: 100vw;
+    height: 25vh; */
+    img{
+        display: block;
+    }
+    p{
+        display: inline;
+        color: #FFFDD0;
+    }
+    footer{
+    background-color:#2E8B57;
+   
+
+    .text{
+        h1{
+            color:#8B4513;
+            font-size: medium;
+        }
+       #commentInput{
+         background-color:#FFFDD0 ;
+         border-radius: 10px 10px;
+         height: 20px;
+         width:60px;
+         list-style: none;
+       
+       }
+       #submitcomment{
+        list-style:none ;
+        border-radius: 50%;
+        box-shadow: #FFFDD0;
+        background-color: #FFFDD0;
+        padding: 5px 5px;
+        color: #8B4513;
+       
+        
+       }
+
+    }
+    .contact{
+        h3{
+            color:#8B4513;
+        }
+        img{
+             width: 20px;
+            height: 20px;
+        }
+     
+    }
+    .media{
+        h3{
+            color:#8B4513;
+        }
+        img{
+            width: 20px;
+            height:20px; 
+        }
+      
+    }
+    .logofooter{
+        img{
+            border: solid #8B4513;
+            width:70px;
+            height:70px;
+            border-radius: 50%;
+           
+        }
+        
+    }
+    .localisation{
+        h3{
+            color:#8B4513;
+        }
+        img{
+            width: 20px;
+            height:20px; 
+        }
+       
+    }
+    .footer-copyright{
+        font-family:monospace;
+        font-size: medium;
+        color: #FFFDD0
+
+    }
+}
+}
+@media screen and (min-width:1000px ) {
+    footer{
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        justify-content: space-around;
+        img{
+            display: block;
+        }
+        .text{
+       
+        
+        }
+        .contact{
+      }
+        .media {
+    
+        }
+        .localisation{
+          display: flex;
+         align-self: center;
+        }
+        .logofooter{
+        order: -1;
+        }
+        .footer-copyright{
+            display: flex;
+           align-items:end ; 
+          
+
+    } 
+}
+ }
